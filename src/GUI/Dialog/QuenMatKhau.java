@@ -59,7 +59,7 @@ public class QuenMatKhau extends JDialog implements ActionListener {
 
         lblTitle = new JLabel();
         lblTitle.setFont(new Font("Segoe UI", 1, 18));
-        lblTitle.setForeground(new Color(255, 255, 255));
+        lblTitle.setForeground(new Color(144, 200, 140));
         lblTitle.setHorizontalAlignment(JLabel.CENTER);
         lblTitle.setText("QUÊN MẬT KHẨU");
         lblTitle.setPreferredSize(new Dimension(400, 50));

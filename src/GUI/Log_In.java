@@ -19,7 +19,8 @@ import java.awt.event.MouseAdapter;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.border.EmptyBorder;
-// téest
+// test comment push
+// test comment
 public class Log_In extends JFrame implements KeyListener {
 
     JPanel pnlMain, pnlLogIn;
@@ -52,7 +53,8 @@ public class Log_In extends JFrame implements KeyListener {
         pnlMain.setPreferredSize(new Dimension(500, 740));
         pnlMain.setLayout(new FlowLayout(1, 0, 10));
 
-        lbl3 = new JLabel("ĐĂNG NHẬP VÀO HỆ THỐNG");
+        lbl3 = new JLabel("ĐĂNG NHẬP ");
+        lbl3.setForeground(new Color(144, 200, 140));
         lbl3.setFont(new Font(FlatRobotoFont.FAMILY_SEMIBOLD, Font.BOLD, 20));
         pnlMain.add(lbl3);
 
@@ -72,8 +74,8 @@ public class Log_In extends JFrame implements KeyListener {
         pnlMain.add(paneldn);
 
         lbl6 = new JLabel("ĐĂNG NHẬP");
+        lbl6.setForeground(new Color(144, 238, 180));
         lbl6.setFont(new Font(FlatRobotoFont.FAMILY, Font.BOLD, 16));
-        lbl6.setForeground(Color.white);
 
         pnlLogIn = new JPanel();
         pnlLogIn.putClientProperty( FlatClientProperties.STYLE, "arc: 99" );
@@ -186,8 +188,7 @@ public class Log_In extends JFrame implements KeyListener {
         this.add(bo, BorderLayout.WEST);
 
         lblImage = new JLabel();
-//        lblImage.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/phone2.jpg")));
-        lblImage.setIcon(new FlatSVGIcon("./img/login-image.svg"));
+        lblImage.setIcon(new FlatSVGIcon("./img/login-page.svg"));
         bo.add(lblImage);
     }
 

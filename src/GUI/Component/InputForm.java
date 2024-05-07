@@ -46,15 +46,17 @@ public final class InputForm extends JPanel {
 
         lblTitle = new JLabel(title);
         lblTitle.setFont(new Font("Arial", Font.BOLD, 14));
-        lblTitle.setForeground(Color.DARK_GRAY);
+        lblTitle.setForeground(new Color(144, 208, 160));
         this.add(lblTitle);
 
         if (style.equals("password")) {
             txtPass = new JPasswordField();
+            txtPass.setForeground(new Color(144, 238, 180));
             txtPass.setFont(new Font("Arial", Font.PLAIN, 12));
             this.add(txtPass);
         } else {
             txtForm = new JTextField();
+            txtForm.setForeground(new Color(144, 238, 180));
             txtForm.setFont(new Font("Arial", Font.PLAIN, 12));
             this.add(txtForm);
         }
