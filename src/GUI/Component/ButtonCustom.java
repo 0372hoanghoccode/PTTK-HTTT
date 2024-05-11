@@ -13,7 +13,7 @@ public class ButtonCustom extends JButton {
         String color = null;
         switch (type) {
             case "success":
-                color = "Actions.Blue";
+                color = "Actions.Green";
                 break;
             case "danger":
                 color = "Actions.Red";

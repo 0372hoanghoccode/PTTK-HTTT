@@ -19,13 +19,13 @@ public final class MainFunction extends JToolBar {
 
     public void initData() {
         btn.put("create", new ButtonToolBar("THÊM", "add.svg", "create"));
-        btn.put("delete", new ButtonToolBar("XÓA", "delete.svg", "delete"));
-        btn.put("update", new ButtonToolBar("SỬA", "edit.svg", "update"));
+        btn.put("delete", new ButtonToolBar("XÓA", "delete1.svg", "delete"));
+        btn.put("update", new ButtonToolBar("SỬA", "edit1.svg", "update"));
         btn.put("cancel", new ButtonToolBar("HUỶ PHIẾU", "cancel.svg", "delete"));
-        btn.put("detail", new ButtonToolBar("CHI TIẾT", "detail.svg", "view"));
+        btn.put("detail", new ButtonToolBar("CHI TIẾT", "detail1.svg", "view"));
         btn.put("import", new ButtonToolBar("NHẬP EXCEL", "import_excel.svg", "create"));
         btn.put("export", new ButtonToolBar("XUẤT EXCEL", "export_excel.svg", "view"));
-        btn.put("phone", new ButtonToolBar("XEM DS", "phone.svg", "view"));
+        btn.put("phone", new ButtonToolBar("XEM DS", "phone1.svg", "view"));
     }
 
     private void initComponent(int manhomquyen, String chucnang, String[] listBtn) {

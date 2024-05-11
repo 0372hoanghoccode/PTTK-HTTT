@@ -43,7 +43,6 @@ public class Log_In extends JFrame implements KeyListener {
         this.setTitle("Đăng nhập");
         this.setResizable(false);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        JFrame jf = this;
 
         imgIntro();
 
