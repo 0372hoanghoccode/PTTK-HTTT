@@ -18,7 +18,9 @@ public class HeaderTitle extends JPanel{
     
     public void initComponent(String title) {
         this.setLayout(new BorderLayout());
-        this.setBackground(new Color(22, 122, 198));
+      //  this.setBackground(new Color(22, 122, 198));
+      this.setBackground(new Color(102, 204, 153));
+
         this.setPreferredSize(new Dimension(400, 60));
         
         
