@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 07, 2023 at 03:56 AM
+-- Generation Time: Oct 07, 2024 at 03:56 AM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.1.17
 
@@ -636,24 +636,28 @@ CREATE TABLE `khachhang` (
 --
 
 INSERT INTO `khachhang` (`makh`, `tenkhachhang`, `diachi`, `sdt`, `trangthai`, `ngaythamgia`) VALUES
-(1, 'Nguyễn Văn A', 'Gia Đức, Ân Đức, Hoài Ân, Bình Định', '0387913347', 1, '2023-04-19 09:52:29'),
-(2, 'Trần Nhất Nhất', '205 Trần Hưng Đạo, Phường 10, Quận 5, Thành phố Hồ Chí Minh', '0123456789', 1, '2023-04-19 09:52:29'),
-(3, 'Hoàng Gia Bo', 'Khoa Trường, Hoài Ân, Bình Định', '0987654321', 1, '2023-04-19 09:52:29'),
-(4, 'Hồ Minh Hưng', 'Khoa Trường, Hoài Ân, Bình Định', '0867987456', 1, '2023-04-19 09:52:29'),
-(29, 'Nguyễn Thị Minh Anh', '123 Phố Huế, Quận Hai Bà Trưng, Hà Nội', '0935123456', 1, '2023-04-30 17:59:57'),
-(30, 'Trần Đức Minh', '789 Đường Lê Hồng Phong, Thành phố Đà Nẵng', '0983456789', 1, '2023-04-30 18:08:12'),
-(31, 'Lê Hải Yến', '456 Tôn Thất Thuyết, Quận 4, Thành phố Hồ Chí Minh', '0977234567', 1, '2023-04-30 18:08:47'),
-(32, 'Phạm Thanh Hằng', '102 Lê Duẩn, Thành phố Hải Phòng', '0965876543', 1, '2023-04-30 18:12:59'),
-(33, 'Hoàng Đức Anh', '321 Lý Thường Kiệt, Thành phố Cần Thơ', '0946789012', 1, '2023-04-30 18:13:47'),
-(34, 'Ngô Thanh Tùng', '987 Trần Hưng Đạo, Quận 1, Thành phố Hồ Chí Minh', '0912345678', 1, '2023-04-30 18:14:12'),
-(35, 'Võ Thị Kim Ngân', '555 Nguyễn Văn Linh, Quận Nam Từ Liêm, Hà Nội', '0916789123', 1, '2023-04-30 18:15:11'),
-(36, 'Đỗ Văn Tú', '777 Hùng Vương, Thành phố Huế', '0982345678', 1, '2023-04-30 18:15:56'),
-(37, 'Lý Thanh Trúc', '888 Nguyễn Thái Học, Quận Ba Đình, Hà Nội', '0982123456', 1, '2023-04-30 18:16:22'),
-(38, 'Bùi Văn Hoàng', '222 Đường 2/4, Thành phố Nha Trang', '0933789012', 1, '2023-04-30 18:16:53'),
-(39, 'Lê Văn Thành', '23 Đường 3 Tháng 2, Quận 10, TP. Hồ Chí Minh', '0933456789', 1, '2023-04-30 18:17:46'),
-(40, 'Nguyễn Thị Lan Anh', '456 Lê Lợi, Quận 1, TP. Hà Nội', '0965123456', 1, '2023-04-30 18:18:10'),
-(41, 'Phạm Thị Mai', '234 Lê Hồng Phong, Quận 5, TP. Hồ Chí Minh', '0946789012', 1, '2023-04-30 18:18:34'),
-(42, 'Hoàng Văn Nam', ' 567 Phố Huế, Quận Hai Bà Trưng, Hà Nội', '0912345678', 1, '2023-04-30 18:19:16');
+
+
+
+(1, 'Trần Văn Bình', '101 Lý Thường Kiệt, Quận 11, Thành phố Hồ Chí Minh', '0381234567', 1, '2024-05-01 09:00:00'),
+(2, 'Nguyễn Thị Thảo', '15 Trần Phú, Phường 5, Quận 3, Thành phố Hồ Chí Minh', '0123000000', 1, '2024-05-01 09:05:00'),
+(3, 'Lê Quang Tùng', 'Tân Thịnh, Hoài Đức, Bình Định', '0987000001', 1, '2024-05-01 09:10:00'),
+(4, 'Phạm Minh Tuấn', 'Tân Thịnh, Hoài Đức, Bình Định', '0867000012', 1, '2024-05-01 09:15:00'),
+(29, 'Đào Thị Minh Hà', '456 Phố Cổ, Quận Hoàn Kiếm, Hà Nội', '0935000456', 1, '2024-05-01 10:00:00'),
+(30, 'Bùi Thanh Tâm', '789 Đường Trần Hưng Đạo, Thành phố Đà Nẵng', '0983456000', 1, '2024-05-01 10:05:00'),
+(31, 'Nguyễn Hải Dương', '123 Tôn Đức Thắng, Quận 4, Thành phố Hồ Chí Minh', '0977234000', 1, '2024-05-01 10:10:00'),
+(32, 'Trần Phương Thảo', '55 Lê Lợi, Thành phố Hải Phòng', '0965876000', 1, '2024-05-01 10:15:00'),
+(33, 'Vũ Đức Minh', '789 Lý Thường Kiệt, Thành phố Cần Thơ', '0946789000', 1, '2024-05-01 10:20:00'),
+(34, 'Hoàng Thị Thu', '321 Trần Hưng Đạo, Quận 1, Thành phố Hồ Chí Minh', '0912345000', 1, '2024-05-01 10:25:00'),
+(35, 'Đỗ Thị Lan', '500 Nguyễn Văn Cừ, Quận Long Biên, Hà Nội', '0916789000', 1, '2024-05-01 10:30:00'),
+(36, 'Lý Văn Thắng', '222 Hùng Vương, Thành phố Huế', '0982345000', 1, '2024-05-01 10:35:00'),
+(37, 'Nguyễn Thị Kim Ngọc', '999 Nguyễn Thái Học, Quận Ba Đình, Hà Nội', '0982123000', 1, '2024-05-01 10:40:00'),
+(38, 'Phạm Tuấn Kiệt', '111 Đường 3/2, Thành phố Nha Trang', '0933789000', 1, '2024-05-01 10:45:00'),
+(39, 'Lê Thị Hà', '24 Đường 3 Tháng 2, Quận 10, TP. Hồ Chí Minh', '0933456000', 1, '2024-05-01 10:50:00'),
+(40, 'Vũ Văn Hoàng', '123 Lê Lợi, Quận 1, TP. Hà Nội', '0965123000', 1, '2024-05-01 10:55:00'),
+(41, 'Nguyễn Thị Bích', '234 Lê Hồng Phong, Quận 5, TP. Hồ Chí Minh', '0946789000', 1, '2024-05-01 11:00:00'),
+(42, 'Trần Thị Hoa', '567 Phố Huế, Quận Hai Bà Trưng, Hà Nội', '0912345000', 1, '2024-05-01 11:05:00');
+
 
 -- --------------------------------------------------------
 
@@ -730,13 +734,14 @@ CREATE TABLE `nhacungcap` (
 --
 
 INSERT INTO `nhacungcap` (`manhacungcap`, `tennhacungcap`, `diachi`, `email`, `sdt`, `trangthai`) VALUES
-(1, 'Công Ty TNHH Thế Giới Di Động', ' Phòng 6.5, Tầng6, Tòa Nhà E. Town 2, 364 Cộng Hòa, P. 13, Q. Tân Bình, Tp. Hồ Chí Minh', 'lienhe@thegioididong.com', '02835100100', 1),
-(2, 'Công ty Vivo Việt Nam', 'Số 79 đường số 6, Hưng Phước 4, Phú Mỹ Hưng, quận 7, TPHCM', 'contact@paviet.vn', '19009477', 1),
-(3, 'Công Ty TNHH Bao La', '8/38 Đinh Bô Lĩnh, P.24, Q. Bình Thạnh, Tp. Hồ Chí Minh', 'contact@baola.vn', '02835119060', 1),
-(4, 'Công Ty Nokia', 'Phòng 703, Tầng7, Tòa Nhà Metropolitan, 235 Đồng Khởi, P. Bến Nghé, Q. 1, Tp. Hồ Chí Minh (TPHCM)', 'chau.nguyen@nokia.com', '02838236894', 1),
-(5, 'Hệ Thống Phân Phối Chính Hãng Xiaomi', '261 Lê Lợi, P. Lê Lợi, Q. Ngô Quyền, Tp. Hải Phòng', 'info@mihome.vn', '0365888866', 1),
-(6, 'Công Ty Samsung Việt Nam', 'Tòa nhà tài chính Bitexco, 2 Hải Triều, Bến Nghé, Quận 1, Thành phố Hồ Chí Minh', 'contact@samsung.vn', '0988788456', 1),
-(7, 'Công ty Oppo Việt Nam', '27 Đ. Nguyễn Trung Trực, Phường Bến Thành, Quận 1, Thành phố Hồ Chí Minh', 'oppovietnam@oppo.vn', '0456345234', 1);
+(1, 'Công Ty TNHH Điện Thoại Vsmart', 'Tòa nhà Vincom Center, 191 Bà Triệu, Hai Bà Trưng, Hà Nội', 'lienhe@vsmart.vn', '0243210000', 1),
+(2, 'Công ty Điện Thoại Xiaomi Việt Nam', 'Số 15 đường số 8, Ciputra, Tây Hồ, Hà Nội', 'support@xiaomivn.com', '18001560', 1),
+(3, 'Công Ty TNHH Điện Thoại Oppo', '212 Nguyễn Đình Chiểu, Phường 6, Quận 3, Tp. Hồ Chí Minh', 'info@oppovn.vn', '0283521000', 1),
+(4, 'Công Ty Điện Thoại Realme', '117 Trần Duy Hưng, Cầu Giấy, Hà Nội', 'contact@realmevn.vn', '02437562200', 1),
+(5, 'Công Ty Cổ Phần Samsung Electronics', 'Tòa nhà Bitexco Financial Tower, 2 Hải Triều, Quận 1, Tp. Hồ Chí Minh', 'cskh@samsungvn.vn', '1800588888', 1),
+(6, 'Công Ty Sony Mobile', '95 Cách Mạng Tháng Tám, Phường Bến Thành, Quận 1, Tp. Hồ Chí Minh', 'hotline@sonyvn.com', '02839251000', 1),
+(7, 'Công Ty Cổ Phần Điện Thoại LG', 'Tầng 10, Toà nhà Lotte Center, 54 Liễu Giai, Ba Đình, Hà Nội', 'lienhe@lgmobile.vn', '0242005000', 1);
+
 
 -- --------------------------------------------------------
 
@@ -759,11 +764,11 @@ CREATE TABLE `nhanvien` (
 --
 
 INSERT INTO `nhanvien` (`manv`, `hoten`, `gioitinh`, `ngaysinh`, `sdt`, `email`, `trangthai`) VALUES
-(1, 'Trần Nhật Sinh', 1, '2003-12-20', '0387913347', 'transinh085@gmail.com', 1),
-(2, 'Hoàng Gia Bảo', 1, '2023-04-11', '0355374322', 'musicanime2501@gmail.com', 1),
-(3, 'Đỗ Nam Công Chính', 1, '2003-04-11', '0123456789', 'chinchin@gmail.com', 1),
-(4, 'Đinh Ngọc Ân', 1, '2003-04-03', '0123456789', 'ngocan@gmail.com', 1),
-(5, 'Vũ Trung Hiếu', 1, '2023-05-06', '0123456789', 'hieu@gmail.com', 1);
+(1, 'Vũ Huy Hoàng', 1, '2004-12-20', '0387913947', 'hoang12@gmail.com', 1),
+(2, 'Trương Nguyễn Minh Hiếu', 1, '2004-04-11', '0359374322', 'hieu12@gmail.com', 1),
+(3, 'Nguyễn Thị Hằng', 1, '2004-04-11', '0123456789', 'hang12@gmail.com', 1),
+(4, 'Nguyễn Thị Hằng Nè', 1, '2004-04-03', '0123456799', 'hangne12@gmail.com', 1),
+(5, 'Nguyễn Văn Gia', 1, '2004-05-06', '0123451789', 'gia12@gmail.com', 1);
 
 -- --------------------------------------------------------
 
@@ -941,26 +946,26 @@ CREATE TABLE `phieunhap` (
 --
 
 INSERT INTO `phieunhap` (`maphieunhap`, `thoigian`, `manhacungcap`, `nguoitao`, `tongtien`, `trangthai`) VALUES
-(1, '2023-04-01 17:34:12', 1, 1, 60000000, 1),
-(2, '2023-04-03 17:42:17', 1, 1, 110000000, 1),
-(3, '2023-04-04 18:07:58', 1, 1, 84000000, 1),
-(4, '2023-04-04 18:19:51', 3, 4, 35000000, 1),
-(5, '2023-04-06 08:18:01', 1, 1, 10000000, 1),
-(8, '2023-04-07 20:33:58', 1, 1, 75000000, 1),
-(9, '2023-04-07 01:09:27', 1, 1, 108500000, 1),
-(10, '2023-04-07 08:42:52', 1, 1, 7000000, 1),
-(11, '2023-04-10 00:22:13', 1, 1, 5000000, 1),
-(12, '2023-04-13 00:52:47', 2, 1, 34500000, 1),
-(13, '2023-04-13 00:56:04', 6, 1, 456000000, 1),
-(14, '2023-04-14 00:57:07', 5, 1, 118000000, 1),
-(15, '2023-04-15 00:59:02', 7, 1, 187500000, 1),
-(16, '2023-04-16 00:59:46', 6, 1, 321000000, 1),
-(17, '2023-04-17 01:00:30', 6, 1, 73800000, 1),
-(18, '2023-04-19 01:01:25', 5, 1, 52000000, 1),
-(19, '2023-04-20 01:02:22', 1, 1, 7500000, 1),
-(20, '2023-05-09 12:09:23', 2, 1, 13000000, 1),
-(21, '2023-05-10 08:17:32', 6, 1, 12500000, 1),
-(23, '2023-05-10 08:25:11', 1, 1, 16000000, 1);
+(1, '2024-04-01 17:34:12', 1, 1, 60000000, 1),
+(2, '2024-04-03 17:42:17', 1, 1, 110000000, 1),
+(3, '2024-04-04 18:07:58', 1, 1, 84000000, 1),
+(4, '2024-04-04 18:19:51', 3, 4, 35000000, 1),
+(5, '2024-04-06 08:18:01', 1, 1, 10000000, 1),
+(8, '2024-04-07 20:33:58', 1, 1, 75000000, 1),
+(9, '2024-04-07 01:09:27', 1, 1, 108500000, 1),
+(10, '2024-04-07 08:42:52', 1, 1, 7000000, 1),
+(11, '2024-04-10 00:22:13', 1, 1, 5000000, 1),
+(12, '2024-04-13 00:52:47', 2, 1, 34500000, 1),
+(13, '2024-04-13 00:56:04', 6, 1, 456000000, 1),
+(14, '2024-04-14 00:57:07', 5, 1, 118000000, 1),
+(15, '2024-04-15 00:59:02', 7, 1, 187500000, 1),
+(16, '2024-04-16 00:59:46', 6, 1, 321000000, 1),
+(17, '2024-04-17 01:00:30', 6, 1, 73800000, 1),
+(18, '2024-04-19 01:01:25', 5, 1, 52000000, 1),
+(19, '2024-04-20 01:02:22', 1, 1, 7500000, 1),
+(20, '2024-05-09 12:09:23', 2, 1, 13000000, 1),
+(21, '2024-05-10 08:17:32', 6, 1, 12500000, 1),
+(23, '2024-05-10 08:25:11', 1, 1, 16000000, 1);
 
 -- --------------------------------------------------------
 
@@ -996,30 +1001,30 @@ CREATE TABLE `phieuxuat` (
 --
 
 INSERT INTO `phieuxuat` (`maphieuxuat`, `thoigian`, `tongtien`, `nguoitaophieuxuat`, `makh`, `trangthai`) VALUES
-(2, '2023-04-04 09:56:35', 16500000, 1, 1, 1),
-(3, '2023-04-04 03:18:23', 49500000, 1, 1, 1),
-(4, '2023-04-05 03:19:31', 39000000, 1, 4, 1),
-(5, '2023-04-06 18:30:26', 31200000, 1, 40, 1),
-(6, '2023-04-06 01:01:48', 22000000, 1, 38, 1),
-(7, '2023-04-06 12:39:44', 7800000, 1, 3, 1),
-(8, '2023-04-08 12:40:04', 23400000, 1, 4, 1),
-(9, '2023-04-09 12:40:32', 22000000, 1, 33, 1),
-(10, '2023-04-11 12:40:50', 15600000, 1, 41, 1),
-(11, '2023-04-11 12:42:33', 49500000, 1, 37, 1),
-(12, '2023-04-12 02:31:45', 60500000, 1, 31, 1),
-(13, '2023-04-13 00:23:02', 5500000, 1, 41, 1),
-(14, '2023-04-30 01:52:18', 42000000, 1, 37, 1),
-(15, '2023-05-01 01:57:39', 11000000, 1, 4, 1),
-(16, '2023-05-02 01:58:16', 54800000, 1, 30, 1),
-(17, '2023-05-03 01:59:44', 51200000, 1, 39, 1),
-(18, '2023-05-04 02:00:13', 28500000, 1, 39, 1),
-(19, '2023-05-05 02:01:28', 36890000, 1, 3, 1),
-(20, '2023-05-06 02:06:24', 18000000, 1, 35, 1),
-(21, '2023-05-07 10:08:49', 17370000, 1, 37, 1),
-(22, '2023-05-08 22:56:21', 36000000, 1, 34, 1),
-(23, '2023-05-09 22:57:23', 16500000, 1, 30, 1),
-(24, '2023-05-10 02:55:35', 13200000, 1, 37, 1),
-(25, '2023-05-10 08:28:18', 15600000, 1, 3, 1);
+(2, '2024-04-04 09:56:35', 16500000, 1, 1, 1),
+(3, '2024-04-04 03:18:23', 49500000, 1, 1, 1),
+(4, '2024-04-05 03:19:31', 39000000, 1, 4, 1),
+(5, '2024-04-06 18:30:26', 31200000, 1, 40, 1),
+(6, '2024-04-06 01:01:48', 22000000, 1, 38, 1),
+(7, '2024-04-06 12:39:44', 7800000, 1, 3, 1),
+(8, '2024-04-08 12:40:04', 23400000, 1, 4, 1),
+(9, '2024-04-09 12:40:32', 22000000, 1, 33, 1),
+(10, '2024-04-11 12:40:50', 15600000, 1, 41, 1),
+(11, '2024-04-11 12:42:33', 49500000, 1, 37, 1),
+(12, '2024-04-12 02:31:45', 60500000, 1, 31, 1),
+(13, '2024-04-13 00:23:02', 5500000, 1, 41, 1),
+(14, '2024-04-30 01:52:18', 42000000, 1, 37, 1),
+(15, '2024-05-01 01:57:39', 11000000, 1, 4, 1),
+(16, '2024-05-02 01:58:16', 54800000, 1, 30, 1),
+(17, '2024-05-03 01:59:44', 51200000, 1, 39, 1),
+(18, '2024-05-04 02:00:13', 28500000, 1, 39, 1),
+(19, '2024-05-05 02:01:28', 36890000, 1, 3, 1),
+(20, '2024-05-06 02:06:24', 18000000, 1, 35, 1),
+(21, '2024-05-07 10:08:49', 17370000, 1, 37, 1),
+(22, '2024-05-08 22:56:21', 36000000, 1, 34, 1),
+(23, '2024-05-09 22:57:23', 16500000, 1, 30, 1),
+(24, '2024-05-10 02:55:35', 13200000, 1, 37, 1),
+(25, '2024-05-10 08:28:18', 15600000, 1, 3, 1);
 
 -- --------------------------------------------------------
 
@@ -1051,22 +1056,22 @@ CREATE TABLE `sanpham` (
 --
 
 INSERT INTO `sanpham` (`masp`, `tensp`, `hinhanh`, `xuatxu`, `chipxuly`, `dungluongpin`, `kichthuocman`, `hedieuhanh`, `phienbanhdh`, `camerasau`, `cameratruoc`, `thoigianbaohanh`, `thuonghieu`, `khuvuckho`, `soluongton`, `trangthai`) VALUES
-(1, 'Vivo Y22s', '92vivo-y22s-vang-thumb-600x600.jpg', 1, 'SnapDragon 680', 5000, 6.55, 1, 12, 'Chính 50 MP & Phụ 2 MP', '8 MP', 24, 1, 1, 5, 1),
-(2, 'Samsung Galaxy A53 5G', '57samsung-galaxy-a53-cam-thumb-1-600x600.jpg', 1, 'Exynos 1280', 5000, 6.5, 1, 12, 'Chính 64 MP & Phụ 12 MP, 5 MP, 5 MP', '32 MP', 24, 3, 2, 3, 1),
-(3, 'iPhone 13 mini', '997iphone-13-mini-pink-1-600x600.jpg', 1, ' Apple A15 Bionic', 2438, 5.4, 2, 15, '2 camera 12 MP', ' 12 MP', 36, 1, 1, 6, 0),
-(4, 'Vivo Y02s', '74vivo-y02s-thumb-1-2-3-600x600.jpg', 1, 'MediaTek Helio P35', 5000, 6.51, 1, 12, '8 MP', ' 5 MP', 24, 10, 3, 14, 1),
-(5, 'Samsung Galaxy A54 5G', '399samsung-galaxy-a54-5g-tim-thumb-600x600.jpg', 2, ' Exynos 1380 8 nhân', 5000, 6.4, 1, 12, 'Chính 50 MP & Phụ 12 MP, 5 MP', ' 32 MP', 24, 3, 3, 39, 1),
-(6, 'Samsung Galaxy A13', '337samsung-galaxy-a14-black-thumb-600x600.jpg', 1, 'Exynos 850', 5000, 6.6, 1, 12, 'Chính 50 MP & Phụ 5 MP, 2 MP, 2 MP', '8 MP', 24, 3, 2, 27, 1),
-(7, 'Xiaomi Redmi Note 12', '717xiaomi-redmi-note-12-4g-mono-den-600x600.jpg', 1, ' Snapdragon 685 8 nhân', 5000, 6.67, 1, 12, 'Chính 50 MP & Phụ 8 MP, 2 MP', '13 MP', 24, 2, 4, 22, 1),
-(8, 'Xiaomi Redmi 12C', '437xiaomi-redmi-12c-grey-thumb-600x600.jpg', 1, 'MediaTek Helio G85', 5000, 6.71, 1, 12, 'Chính 50 MP & Phụ QVGA', '5 MP', 24, 1, 1, 0, 1),
-(9, 'Samsung Galaxy S20 FE', '286samsung-galaxy-s20-fan-edition-xanh-la-thumbnew-600x600.jpeg', 1, 'Snapdragon 865', 4500, 6.5, 1, 12, 'Chính 12 MP & Phụ 12 MP, 8 MP', '32 MP', 24, 3, 4, 6, 1),
-(10, 'Samsung Galaxy A23', '826samsung-galaxy-a23-cam-thumb-600x600.jpg', 1, 'Snapdragon 680', 5000, 6.6, 1, 12, 'Chính 50 MP & Phụ 5 MP, 2 MP, 2 MP', '8 MP', 24, 1, 1, 10, 1),
-(11, 'Realme 10', '877realme-10-thumb-1-600x600.jpg', 1, 'MediaTek Helio G99', 5000, 6.4, 1, 12, 'Chính 50 MP & Phụ 2 MP', '16 MP', 24, 11, 1, 0, 1),
-(12, 'Vivo Y21', '960vivo-y21-blue-01-600x600.jpg', 1, 'MediaTek Helio P35', 5000, 6.51, 1, 12, 'Chính 13 MP & Phụ 2 MP', '8 MP', 24, 10, 5, 11, 1),
-(13, 'Samsung Galaxy S22+ 5G', '177Galaxy-S22-Ultra-Burgundy-600x600.jpg', 1, 'Snapdragon 8 Gen 1', 4500, 6.6, 1, 12, 'Chính 50 MP & Phụ 12 MP, 10 MP', '10 MP', 24, 3, 4, 20, 1),
-(14, 'OPPO Reno6 Pro 5G', '203oppo-reno6-pro-grey-600x600.jpg', 1, 'Snapdragon 870 5G', 4500, 6.55, 1, 11, 'Chính 50 MP & Phụ 16 MP, 13 MP, 2 MP', '32 MP', 24, 3, 4, 7, 1),
-(15, ' OPPO A95', '555oppo-a95-4g-bac-2-600x600.jpg', 1, 'Snapdragon 662', 5000, 6.43, 1, 11, 'Chính 48 MP & Phụ 2 MP, 2 MP', '16 MP', 24, 1, 1, 5, 1),
-(17, 'Samsung Galaxy A53 5G S', '74319198933.jpg', 1, 'chip a', 5000, 5.6, 1, 12, 'msdf', 'dsfgfdg', 24, 1, 1, 5, 0);
+(1, 'Vivo Y22', '92vivo-y22s-vang-thumb-600x600.jpg', 1, 'SnapDragon 665', 4500, 6.44, 1, 12, 'Chính 48 MP & Phụ 8 MP', '16 MP', 24, 1, 1, 5, 1),
+(2, 'Samsung Galaxy A73 5G', '57samsung-galaxy-a53-cam-thumb-1-600x600.jpg', 1, 'SnapDragon 778G', 5000, 6.7, 1, 12, 'Chính 108 MP & Phụ 12 MP, 5 MP, 5 MP', '32 MP', 24, 3, 2, 3, 1),
+(3, 'iPhone 13 Pro', '997iphone-13-mini-pink-1-600x600.jpg', 1, 'Apple A15 Bionic', 3095, 6.1, 2, 15, '3 camera 12 MP', '12 MP', 36, 1, 1, 6, 0),
+(4, 'Vivo Y11', '74vivo-y02s-thumb-1-2-3-600x600.jpg', 1, 'MediaTek Helio P22', 5000, 6.35, 1, 12, '13 MP', '8 MP', 24, 10, 3, 14, 1),
+(5, 'Samsung Galaxy A52s 5G', '399samsung-galaxy-a54-5g-tim-thumb-600x600.jpg', 2, 'SnapDragon 778G 5G', 4500, 6.5, 1, 12, 'Chính 64 MP & Phụ 12 MP, 5 MP', '32 MP', 24, 3, 3, 39, 1),
+(6, 'Samsung Galaxy M32', '337samsung-galaxy-a14-black-thumb-600x600.jpg', 1, 'MediaTek Helio G80', 6000, 6.4, 1, 12, 'Chính 64 MP & Phụ 8 MP, 5 MP, 5 MP', '20 MP', 24, 3, 2, 27, 1),
+(7, 'Xiaomi Redmi Note 10', '717xiaomi-redmi-note-12-4g-mono-den-600x600.jpg', 1, 'SnapDragon 678', 5000, 6.43, 1, 12, 'Chính 48 MP & Phụ 8 MP, 2 MP', '13 MP', 24, 2, 4, 22, 1),
+(8, 'Xiaomi Redmi 9C', '437xiaomi-redmi-12c-grey-thumb-600x600.jpg', 1, 'MediaTek Helio G35', 5000, 6.53, 1, 12, 'Chính 13 MP & Phụ 2 MP', '5 MP', 24, 1, 1, 0, 1),
+(9, 'Samsung Galaxy S21 FE', '286samsung-galaxy-s20-fan-edition-xanh-la-thumbnew-600x600.jpeg', 1, 'Exynos 2100', 4500, 6.4, 1, 12, 'Chính 12 MP & Phụ 12 MP, 8 MP', '32 MP', 24, 3, 4, 6, 1),
+(10, 'Samsung Galaxy A33 5G', '826samsung-galaxy-a23-cam-thumb-600x600.jpg', 1, 'Exynos 1280', 5000, 6.4, 1, 12, 'Chính 48 MP & Phụ 8 MP, 5 MP, 2 MP', '13 MP', 24, 1, 1, 10, 1),
+(11, 'Realme 9 Pro+', '877realme-10-thumb-1-600x600.jpg', 1, 'SnapDragon 695', 4500, 6.4, 1, 12, 'Chính 50 MP & Phụ 8 MP, 2 MP', '16 MP', 24, 11, 1, 0, 1),
+(12, 'Vivo Y15', '960vivo-y21-blue-01-600x600.jpg', 1, 'MediaTek Helio P22', 5000, 6.35, 1, 12, 'Chính 13 MP & Phụ 8 MP, 2 MP', '8 MP', 24, 10, 5, 11, 1),
+(13, 'Samsung Galaxy S22 Ultra 5G', '177Galaxy-S22-Ultra-Burgundy-600x600.jpg', 1, 'Snapdragon 8 Gen 1', 5000, 6.8, 1, 12, 'Chính 108 MP & Phụ 12 MP, 10 MP', '40 MP', 24, 3, 4, 20, 1),
+(14, 'OPPO Reno7 Pro 5G', '203oppo-reno6-pro-grey-600x600.jpg', 1, 'MediaTek Dimensity 1200-MAX', 4500, 6.55, 1, 11, 'Chính 50 MP & Phụ 8 MP, 2 MP', '32 MP', 24, 3, 4, 7, 1),
+(15, 'OPPO A76', '555oppo-a95-4g-bac-2-600x600.jpg', 1, 'Snapdragon 680', 5000, 6.56, 1, 11, 'Chính 13 MP & Phụ 2 MP', '8 MP', 24, 1, 1, 5, 1),
+(17, 'Samsung Galaxy A73 5G', '74319198933.jpg', 1, 'Snapdragon 778G', 5000, 6.7, 1, 12, 'Chính 108 MP & Phụ 12 MP, 8 MP', '32 MP', 24, 1, 1, 5, 0);
 
 -- --------------------------------------------------------
 
@@ -1088,11 +1093,11 @@ CREATE TABLE `taikhoan` (
 --
 
 INSERT INTO `taikhoan` (`manv`, `matkhau`, `manhomquyen`, `tendangnhap`, `trangthai`, `otp`) VALUES
-(1, '$2a$12$6GSkiQ05XjTRvCW9MB6MNuf7hOJEbbeQx11Eb8oELil1OrCq6uBXm', 1, 'admin', 1, 'null'),
-(2, '$2a$12$SAlAhcsudMzNEouyBaoHnOKR23ixdH0ZkcoyXUJ5gS/NFt.b4oqw6', 1, 'hgbaodev', 1, '451418'),
-(3, '$2a$12$SAlAhcsudMzNEouyBaoHnOKR23ixdH0ZkcoyXUJ5gS/NFt.b4oqw6', 10, 'chinh', 1, NULL),
-(4, '$2a$12$SAlAhcsudMzNEouyBaoHnOKR23ixdH0ZkcoyXUJ5gS/NFt.b4oqw6', 2, 'ngocan', 0, NULL),
-(5, '$2a$12$SAlAhcsudMzNEouyBaoHnOKR23ixdH0ZkcoyXUJ5gS/NFt.b4oqw6', 3, 'hieunek', 0, NULL);
+(1, '$2a$12$6GSkiQ05XjTRvCW9MB6MNuf7hOJEbbeQx11Eb8oELil1OrCq6uBXm', 1, 'admin1', 1, 'null'),
+(2, '$2a$12$SAlAhcsudMzNEouyBaoHnOKR23ixdH0ZkcoyXUJ5gS/NFt.b4oqw6', 1, 'admin2', 1, '451418'),
+(3, '$2a$12$SAlAhcsudMzNEouyBaoHnOKR23ixdH0ZkcoyXUJ5gS/NFt.b4oqw6', 10, 'admin3', 1, NULL),
+(4, '$2a$12$SAlAhcsudMzNEouyBaoHnOKR23ixdH0ZkcoyXUJ5gS/NFt.b4oqw6', 2, 'nhập hàng', 0, NULL),
+(5, '$2a$12$SAlAhcsudMzNEouyBaoHnOKR23ixdH0ZkcoyXUJ5gS/NFt.b4oqw6', 3, 'xuất hàng', 0, NULL);
 
 -- --------------------------------------------------------
 
@@ -1114,15 +1119,17 @@ INSERT INTO `thuonghieu` (`mathuonghieu`, `tenthuonghieu`, `trangthai`) VALUES
 (1, 'Apple', 1),
 (2, 'Xiaomi', 1),
 (3, 'Samsung', 1),
-(4, 'Sữa tươi', 0),
-(7, 'g', 0),
-(8, '', 0),
+(4, 'Huawei', 1),
+(5, 'Sony', 1),
+(6, 'LG', 1),
+(7, 'OnePlus', 1),
+(8, 'Google', 1),
 (9, 'Oppo', 1),
 (10, 'Vivo', 1),
 (11, 'Realme', 1),
 (12, 'Nokia', 1),
 (13, 'Vsmart', 1),
-(14, 'Apple', 0);
+(14, 'Motorola', 1);
 
 -- --------------------------------------------------------
 
@@ -1144,7 +1151,7 @@ INSERT INTO `xuatxu` (`maxuatxu`, `tenxuatxu`, `trangthai`) VALUES
 (1, 'Trung Quốc', 1),
 (2, 'Hàn Quốc', 1),
 (3, 'Việt Nam', 1),
-(4, 'USA', 1);
+(4, 'Mĩ', 1);
 
 --
 -- Indexes for dumped tables

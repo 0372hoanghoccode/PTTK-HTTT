@@ -19,13 +19,12 @@ import java.awt.event.MouseAdapter;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.border.EmptyBorder;
-<<<<<<< HEAD
+
 // test comment push
 // test comment
-=======
+
 // téest
-// Tui là hiếu thứ 163444
->>>>>>> be956c4a5563751748ff161226383f47a6ca8774
+// Tui là hiếu thứ 16344
 public class Log_In extends JFrame implements KeyListener {
 
     JPanel pnlMain, pnlLogIn;
