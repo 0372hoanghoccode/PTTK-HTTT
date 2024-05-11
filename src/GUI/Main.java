@@ -1,10 +1,11 @@
 package GUI;
 
 import DTO.TaiKhoanDTO;
-import GUI.Panel.TrangChu;
+
 import java.awt.*;
 import javax.swing.*;
 import GUI.Component.MenuTaskbar;
+import GUI.Panel.SanPham;
 import com.formdev.flatlaf.FlatDarculaLaf;
 import com.formdev.flatlaf.FlatDarkLaf;
 import com.formdev.flatlaf.FlatIntelliJLaf;
@@ -21,7 +22,7 @@ public class Main extends JFrame {
     Color MainColor = new Color(250, 250, 250);
 
     private MenuTaskbar menuTaskbar;
-    private TrangChu trangChu;
+    private SanPham trangChu;
 
     private void initComponent() {
         this.setSize(new Dimension(1400, 800));
@@ -46,7 +47,7 @@ public class Main extends JFrame {
 
         this.add(MainContent, BorderLayout.CENTER);
 
-        trangChu = new TrangChu();
+        trangChu = new SanPham(this);
         MainContent.add(trangChu).setVisible(true);
     }
 
