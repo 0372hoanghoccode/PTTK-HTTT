@@ -20,11 +20,8 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.border.EmptyBorder;
 
-// test comment push
-// test comment
+// Tui là hiếu thứ 163444>>>>>>> be956c4a5563751748ff161226383f47a6ca8774
 
-// téest
-// Tui là hiếu thứ 16344
 public class Log_In extends JFrame implements KeyListener {
 
     JPanel pnlMain, pnlLogIn;
@@ -35,7 +32,7 @@ public class Log_In extends JFrame implements KeyListener {
 
     public Log_In() {
         initComponent();
-        txtUsername.setText("admin");
+        txtUsername.setText("admin1");
         txtPassword.setPass("123456");
     }
 
@@ -109,17 +106,17 @@ public class Log_In extends JFrame implements KeyListener {
         });
         pnlLogIn.add(lbl6);
 
-        lbl7 = new JLabel("Quên mật khẩu", JLabel.RIGHT);
-        lbl7.setPreferredSize(new Dimension(380, 50));
-        lbl7.setFont(new Font(FlatRobotoFont.FAMILY, Font.ITALIC, 18));
-        lbl7.addMouseListener(new MouseAdapter() {
-            @Override
-            public void mouseClicked(MouseEvent evt) {
-                QuenMatKhau qmk = new QuenMatKhau(jf, true);
-                qmk.setVisible(true);
-            }
-        });
-        pnlMain.add(lbl7);
+        // lbl7 = new JLabel("Quên mật khẩu", JLabel.RIGHT);
+        // lbl7.setPreferredSize(new Dimension(380, 50));
+        // lbl7.setFont(new Font(FlatRobotoFont.FAMILY, Font.ITALIC, 18));
+        // lbl7.addMouseListener(new MouseAdapter() {
+        //     @Override
+        //     public void mouseClicked(MouseEvent evt) {
+        //         QuenMatKhau qmk = new QuenMatKhau(jf, true);
+        //         qmk.setVisible(true);
+        //     }
+        // });
+        // pnlMain.add(lbl7);
 
         pnlMain.add(pnlLogIn);
 

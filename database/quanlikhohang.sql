@@ -764,7 +764,7 @@ CREATE TABLE `nhanvien` (
 --
 
 INSERT INTO `nhanvien` (`manv`, `hoten`, `gioitinh`, `ngaysinh`, `sdt`, `email`, `trangthai`) VALUES
-(1, 'Vũ Huy Hoàng', 1, '2004-12-20', '0387913947', 'hoang12@gmail.com', 1),
+(1, 'Vũ Huy Hoàng', 1, '2004-12-20', '0372174417', 'vuh47009@gmail.com', 1),
 (2, 'Trương Nguyễn Minh Hiếu', 1, '2004-04-11', '0359374322', 'hieu12@gmail.com', 1),
 (3, 'Nguyễn Thị Hằng', 1, '2004-04-11', '0123456789', 'hang12@gmail.com', 1),
 (4, 'Nguyễn Thị Hằng Nè', 1, '2004-04-03', '0123456799', 'hangne12@gmail.com', 1),

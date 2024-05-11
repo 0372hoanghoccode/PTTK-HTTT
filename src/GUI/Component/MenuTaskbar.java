@@ -47,18 +47,18 @@ public class MenuTaskbar extends JPanel {
     PhanQuyen phanQuyen;
     ThongKe thongKe;
     String[][] getSt = {
-        {"Trang chủ", "home.svg", "trangchu"},
-        {"Sản phẩm", "product.svg", "sanpham"},
-        {"Thuộc tính", "brand.svg", "thuoctinh"},
-        {"Khu vực kho", "area.svg", "khuvuckho"},
-        {"Phiếu nhập", "import.svg", "nhaphang"},
-        {"Phiếu xuất", "export.svg", "xuathang"},
-        {"Khách hàng", "customer.svg", "khachhang"},
-        {"Nhà cung cấp", "supplier.svg", "nhacungcap"},
-        {"Nhân viên", "staff.svg", "nhanvien"},
-        {"Tài khoản", "statistical.svg", "taikhoan"},
-        {"Thống kê", "statistical.svg", "thongke"},
-        {"Phân quyền", "permission.svg", "nhomquyen"},
+        {"Trang chủ", "home_1.svg", "trangchu"},
+        {"Sản phẩm", "product_menu.svg", "sanpham"},
+        {"Thuộc tính", "attribute_menu.svg", "thuoctinh"},
+        {"Khu vực kho", "area_menu.svg", "khuvuckho"},
+        {"Phiếu nhập", "import_menu.svg", "nhaphang"},
+        {"Phiếu xuất", "export_menu.svg", "xuathang"},
+        {"Khách hàng", "customer_menu.svg", "khachhang"},
+        {"Nhà cung cấp", "supplier_menu.svg", "nhacungcap"},
+        {"Nhân viên", "staff_menu.svg", "nhanvien"},
+        {"Tài khoản", "account_menu.svg", "taikhoan"},
+        {"Thống kê", "statistical_menu.svg", "thongke"},
+        {"Phân quyền", "permission_menu.svg", "nhomquyen"},
         {"Đăng xuất", "log_out.svg", "dangxuat"},
     };
 
