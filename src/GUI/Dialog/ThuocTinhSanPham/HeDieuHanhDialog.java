@@ -144,16 +144,11 @@ public class HeDieuHanhDialog extends JDialog implements MouseListener {
             if (Validation.isEmpty(ms.getText())) {
                 JOptionPane.showMessageDialog(this, "Vui lòng nhập tên hệ điều hành mới");
             } else {
-                String tenmau = ms.getText();
-                if (msBUS.checkDup(tenmau)) {
+                String tenmau = ms.getText(); 
                     int id = HeDieuHanhDAO.getInstance().getAutoIncrement();
                     msBUS.add(new HeDieuHanhDTO(id, tenmau));
                     loadDataTable(list);
                     ms.setText("");
-                } else {
-                    JOptionPane.showMessageDialog(this, "Hệ điều hành đã tồn tại !");
-                }
-
             }
         } else if (e.getSource() == del) {
             int index = getRowSelected();
@@ -169,13 +164,10 @@ public class HeDieuHanhDialog extends JDialog implements MouseListener {
                     JOptionPane.showMessageDialog(this, "Vui lòng nhập tên hệ điều hành");
                 } else {
                     String tenmau = ms.getText();
-                    if (msBUS.checkDup(tenmau)) {
+                  
                         msBUS.update(new HeDieuHanhDTO(list.get(index).getMahdh(), tenmau));
                         loadDataTable(list);
-                        ms.setText("");
-                    } else {
-                        JOptionPane.showMessageDialog(this, "Hệ điều hành đã tồn tại !");
-                    }
+                        ms.setText("");  
                 }
             }
         } else if (e.getSource() == table) {

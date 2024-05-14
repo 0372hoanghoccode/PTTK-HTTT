@@ -75,17 +75,6 @@ public class HeDieuHanhBUS {
         return check;
     }
 
-    public boolean checkDup(String name) {
-        boolean check = true;
-        int i = 0;
-        while (i <= this.listHeDieuHanh.size() && check == true) {
-            if (this.listHeDieuHanh.get(i).getTenhdh().toLowerCase().contains(name.toLowerCase())) {
-                check = false;
-            } else {
-                i++;
-            }
-        }
-        return check;
-    }
+ 
 
 }
