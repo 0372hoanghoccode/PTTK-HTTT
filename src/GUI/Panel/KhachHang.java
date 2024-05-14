@@ -251,7 +251,7 @@ public class KhachHang extends JPanel implements ActionListener, ItemListener {
             int index = getRowSelected();
             if (index != -1) {
                 int input = JOptionPane.showConfirmDialog(null,
-                        "Bạn có chắc chắn muốn xóa khách hàng ?", "Xóa khách hàng",
+                        "Bạn chắc chắn muốn xóa khách hàng ?", "Xóa khách hàng",
                         JOptionPane.OK_CANCEL_OPTION, JOptionPane.INFORMATION_MESSAGE);
                 if (input == 0) {
                     khachhangBUS.delete(listkh.get(index));

@@ -271,7 +271,7 @@ public class KhuVucKho extends JPanel implements ActionListener, ItemListener {
             int index = getRowSelected();
             if (index != -1) {
                 int input = JOptionPane.showConfirmDialog(null,
-                        "Bạn có chắc chắn muốn xóa khu vực!", "Xóa khu vực kho",
+                        "Bạn chắc chắn muốn xóa khu vực!", "Xóa khu vực kho",
                         JOptionPane.OK_CANCEL_OPTION, JOptionPane.INFORMATION_MESSAGE);
                 if (input == 0) {
                     int check = 0;

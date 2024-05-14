@@ -197,7 +197,7 @@ public class TaiKhoan extends JPanel implements ActionListener, ItemListener {
             int index = getRowSelected();
             if (index != -1) {
                 int input = JOptionPane.showConfirmDialog(null,
-                        "Bạn có chắc chắn muốn xóa tài khoản :)!", "Xóa xóa tài khoản",
+                        "Bạnnchắc chắn muốn xóa tài khoản !", "Xóa xóa tài khoản",
                         JOptionPane.OK_CANCEL_OPTION, JOptionPane.INFORMATION_MESSAGE);
                 if (input == 0) {
                     TaiKhoanDAO.getInstance().delete(listTk.get(index).getManv() + "");

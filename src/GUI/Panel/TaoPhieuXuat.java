@@ -524,7 +524,7 @@ public final class TaoPhieuXuat extends JPanel {
             } else if (makh == -1) {
                 JOptionPane.showMessageDialog(null, "Vui lòng chọn khách hàng");
             } else {
-                int input = JOptionPane.showConfirmDialog(null, "Bạn có chắc chắn muốn tạo phiếu xuất !", "Xác nhận tạo phiếu", JOptionPane.OK_CANCEL_OPTION, JOptionPane.INFORMATION_MESSAGE);
+                int input = JOptionPane.showConfirmDialog(null, "Bạn chắc chắn muốn tạo phiếu xuất !", "Xác nhận tạo phiếu", JOptionPane.OK_CANCEL_OPTION, JOptionPane.INFORMATION_MESSAGE);
                 if (input == 0) {
                     long now = System.currentTimeMillis();
                     Timestamp currenTime = new Timestamp(now);

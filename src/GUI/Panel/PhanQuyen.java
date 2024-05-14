@@ -133,7 +133,7 @@ public class PhanQuyen extends JPanel implements ActionListener {
         } else if (e.getSource() == mainFunction.btn.get("delete")) {
             int index = this.getRowSelected();
             if (index >= 0) {
-                int input = JOptionPane.showConfirmDialog(null,"Bạn có chắc chắn muốn xóa nhà cung cấp!", "Xóa nhà cung cấp",JOptionPane.OK_CANCEL_OPTION, JOptionPane.INFORMATION_MESSAGE);
+                int input = JOptionPane.showConfirmDialog(null,"Bạn chắc chắn muốn xóa nhà cung cấp!", "Xóa nhà cung cấp",JOptionPane.OK_CANCEL_OPTION, JOptionPane.INFORMATION_MESSAGE);
                 if (input == 0) {
                     nhomquyenBUS.delete(listnhomquyen.get(index));
                     loadDataTalbe(listnhomquyen);

@@ -670,7 +670,7 @@ public final class TaoPhieuNhap extends JPanel implements ItemListener, ActionLi
         if (chitietphieu.isEmpty()) {
             JOptionPane.showMessageDialog(this, "Chưa có sản phẩm nào trong phiếu !", "Cảnh báo !", JOptionPane.ERROR_MESSAGE);
         } else {
-            int input = JOptionPane.showConfirmDialog(null, "Bạn có chắc chắn muốn tạo phiếu nhập !", "Xác nhận tạo phiếu", JOptionPane.OK_CANCEL_OPTION, JOptionPane.INFORMATION_MESSAGE);
+            int input = JOptionPane.showConfirmDialog(null, "Bạn chắc chắn muốn tạo phiếu nhập !", "Xác nhận tạo phiếu", JOptionPane.OK_CANCEL_OPTION, JOptionPane.INFORMATION_MESSAGE);
             if (input == 0) {
                 int mancc = nccBus.getByIndex(cbxNhaCungCap.getSelectedIndex()).getMancc();
                 long now = System.currentTimeMillis();

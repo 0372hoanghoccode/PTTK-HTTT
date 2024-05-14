@@ -284,7 +284,7 @@ public class MenuTaskbar extends JPanel {
             public void mousePressed(MouseEvent evt) {
 
                 int input = JOptionPane.showConfirmDialog(null,
-                        "Bạn có chắc chắn muốn đăng xuất?", "Đăng xuất",
+                        "Bạn chắc chắn muốn đăng xuất?", "Đăng xuất",
                         JOptionPane.OK_CANCEL_OPTION, JOptionPane.INFORMATION_MESSAGE);
                 if (input == 0) {
                     Log_In login = new Log_In();

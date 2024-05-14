@@ -210,7 +210,7 @@ public class PhieuKiemKe extends JPanel implements ActionListener, PropertyChang
             if (index == -1) {
                 JOptionPane.showMessageDialog(this, "Vui lòng chọn phiếu cần hủy");
             } else {
-                int check =  JOptionPane.showConfirmDialog(this, "Bạn có chắc chắn muốn xóa phiếu này!","Xóa phiếu",JOptionPane.YES_NO_OPTION);
+                int check =  JOptionPane.showConfirmDialog(this, "Bạn chắc chắn muốn xóa phiếu này!","Xóa phiếu",JOptionPane.YES_NO_OPTION);
                 if(check == JOptionPane.YES_OPTION){
                     phieuKiemKeBUS.cancel(index);
                     JOptionPane.showMessageDialog(null, "Xóa phiếu thành công!");

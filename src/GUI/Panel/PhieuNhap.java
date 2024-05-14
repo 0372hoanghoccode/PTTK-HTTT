@@ -295,7 +295,7 @@ public final class PhieuNhap extends JPanel implements ActionListener, KeyListen
         } else if (source == mainFunction.btn.get("cancel")) {
             int index = getRowSelected();
             if (index != -1) {
-                int input = JOptionPane.showConfirmDialog(null, "Bạn có chắc chắn muốn huỷ phiếu ?\nThao tác này không thể hoàn tác nên hãy suy nghĩ kĩ !", "Huỷ phiếu", JOptionPane.OK_CANCEL_OPTION, JOptionPane.INFORMATION_MESSAGE);
+                int input = JOptionPane.showConfirmDialog(null, "Bạn chắc chắn muốn huỷ phiếu ?\nThao tác này không thể hoàn tác nên hãy suy nghĩ kĩ !", "Huỷ phiếu", JOptionPane.OK_CANCEL_OPTION, JOptionPane.INFORMATION_MESSAGE);
                 if (input == 0) {
                     PhieuNhapDTO pn = listPhieu.get(index);
                     System.out.println(pn);
